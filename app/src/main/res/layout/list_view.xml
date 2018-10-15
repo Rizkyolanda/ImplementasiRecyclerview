@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+    <android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+    android:background="@drawable/ic_launcher_background"
+    android:id="@+id/icon"/>
+
+    <android.support.v7.widget.AppCompatAutoCompleteTextView android:layout_width="match_parent"
+                                                             android:layout_height="wrap_content"
+                                                             android:layout_toRightOf="@id/icon"
+                                                             android:text="Coba Relative layout"
+                                                             android:layout_marginTop="2dp"
+                                                             android:paddingStart="10dp"
+                                                             android:textStyle="normal"
+                                                             android:layout_marginLeft="0dp"
+                                                             android:layout_alignParentTop="true"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textStyle="italic"
+              android:text="detile dari percobaan tadi"
+              android:layout_marginTop="50dp"
+              android:id="@+id/test"
+              android:paddingStart="10dp"
+              android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" android:layout_marginLeft="0dp"/>
+
+</RelativeLayout>
